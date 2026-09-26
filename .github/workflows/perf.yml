@@ -44,9 +44,9 @@ jobs:
         uses: codescan-io/codescan-scanner-action@cd9694sarif1
         with:
           scanChangedFilesOnly: true
-          organization: "va-performance-githubactions"
-          projectKey: "profiles-5-run"
-          codeScanUrl: "https://perf.codescan.io/"
+          organization: va-performance-githubactions
+          projectKey: profiles-5-run
+          codeScanUrl: https://perf.codescan.io/
           login: squ_0eee50e6c310def43a7e8ac38d186557da7f0df4
           generateSarifFile: true
 
@@ -55,9 +55,9 @@ jobs:
         uses: codescan-io/codescan-scanner-action@cd9694sarif1
         with:
           scanChangedFilesOnly: true
-          organization: "va-performance-githubactions"
-          projectKey: "profiles-5-run"
-          codeScanUrl: "https://perf.codescan.io/"
+          organization: va-performance-githubactions
+          projectKey: profiles-5-run
+          codeScanUrl: https://perf.codescan.io/
           login: squ_0eee50e6c310def43a7e8ac38d186557da7f0df4
           generateSarifFile: true
           args: |
