@@ -47,7 +47,7 @@ jobs:
           organization: va-performance-githubactions
           projectKey: profiles-5-run
           codeScanUrl: https://preview.codescan.io/
-          login: squ_0718172be9379c663e84bd34572705115ad4708b
+          login: login: ${{ secrets.squ_0eee50e6c310def43a7e8ac38d186557da7f0df4 }}
           generateSarifFile: true
 
       - name: Run CodeScan On PR
@@ -58,7 +58,7 @@ jobs:
           organization: va-performance-githubactions
           projectKey: profiles-5-run
           codeScanUrl: https://preview.codescan.io/
-          login: squ_0718172be9379c663e84bd34572705115ad4708b
+          login: login: ${{ secrets.squ_0eee50e6c310def43a7e8ac38d186557da7f0df4 }}
           generateSarifFile: true
           args: |
             sonar.pullrequest.branch=${{ github.head_ref }}
